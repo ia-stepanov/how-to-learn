@@ -18,7 +18,7 @@
 }
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   background-color: #F2F2F2;
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
@@ -56,6 +56,7 @@
 }
 
 .footer {
+  display: flex;
   min-height: 350px;
   background-color: #1F1F1F;
   box-sizing: border-box;
@@ -74,23 +75,23 @@
   display: flex;
   justify-content: space-between;
   width: 90%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .footer__column_content_copyright {
-  height: 250px;
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.footer__columns_info {
+.footer__columns_heading {
   display: flex;
 }
 
-.footer__column_content_info {
-  padding-right: 250px;
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column-heading {
@@ -104,21 +105,25 @@
 .footer__column-links {
   padding: 0;
   margin: 0 0 16px;
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__link {
   color: white;
-  text-decoration: none;
   line-height: 30px;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 700;
 }
 
 .footer__list-item {
   display: block;
 }
 
-.footer__social_icon {
+.footer__social–icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
@@ -165,18 +170,20 @@
 .header__subtitle {
   position: absolute;
   bottom: 30px;
+  left: 64px;
   max-width: 388px;
-  margin-left: 64px;
   z-index: 1;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
 }
 
 .header__title {
   position: relative;
   max-width: 730px;
-  margin-left: 64px;
+  margin: 0px;
+  padding-left: 64px;
   z-index: 2;
   line-height: 96px;
   font-size: 102px;
@@ -186,7 +193,7 @@
 .kaufman {
   background-color: #1F1F1F;
   position: relative;
-  padding: 100px 0;
+  padding: 90px 0;
   overflow: hidden;
 }
 
@@ -205,12 +212,12 @@
 
 .logo {
   width: 183px;
-  height: 35px;
   background-repeat: no-repeat;
 }
 
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
+  height: 35px;
 }
 
 
@@ -220,6 +227,7 @@
   z-index: 1;
   top: 30px;
   left: 64px;
+  height: 32px;
 }
 
 .section-subtitle {
@@ -259,7 +267,6 @@
   align-content: space-between;
   max-width: 1100px;
   margin: auto;
-  padding: 0 20px;
   }
 
 .table__cell {
@@ -303,6 +310,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
 }
 
 .two-columns__main-text {
