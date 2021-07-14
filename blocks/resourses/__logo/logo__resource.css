@@ -1,9 +1,9 @@
-.resources__logo {
+.logo__resource {
   width: 270px;
   height: 38px;
   transition: opacity .2s linear;
 }
 
-.resources__logo:hover {
+.logo__resource:hover {
   opacity: .5;
 }
