@@ -2,6 +2,7 @@
   width: 515px;
   height: 316px;
   margin-right: 20px;
+  border: 0;
 }
 
 .video__iframe:last-child {
