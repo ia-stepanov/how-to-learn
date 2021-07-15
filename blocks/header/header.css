@@ -1,9 +1,3 @@
-@import url(./__title/header__title.css);
-@import url(./__subtitle/header__subtitle.css);
-@import url(./__link/header__link.css);
-@import url(./__main-illustration/header__main-illustration.css);
-@import url(./__square-pic/header__square-pic.css);
-
 .header {
   height: 100vh;
   min-height: 600px;

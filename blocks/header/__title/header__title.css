@@ -1,7 +1,7 @@
 .header__title {
   position: relative;
   max-width: 730px;
-  margin: 0px;
+  margin: 0;
   padding-left: 64px;
   z-index: 2;
   line-height: 96px;
