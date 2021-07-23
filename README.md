@@ -16,3 +16,6 @@
 * CSS3;
 * БЭМ;
 * Файловая структура Nested БЭМ.
+
+## Ссылка на сайт:
+https://ia-stepanov.github.io/how-to-learn/
